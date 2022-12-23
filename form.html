@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>event form</title>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+  }
+
+  span {
+    color: #3867d6;
+
+  }
+
+  .head {
+    height: 57px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .main {
+    background-color: rgb(44, 42, 42);
+    color: rgb(77, 76, 76);
+
+    position: relative;
+    top: 73px;
+  }
+
+  tr>td {
+    height: 50px;
+    width: 624px;
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+  }
+
+  .foot {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 74px;
+    padding-top: 29px;
+  }
+
+  .button {
+    position: relative;
+    top: 74px;
+    background-color: #333;
+    height: 50px;
+
+  }
+
+  #sub {
+    height: 35px;
+    position: relative;
+    background-color: #ea3c3c;
+    color: white;
+    width: 136px;
+    left: 560px;
+    top: 8px;
+    border-radius: 20px;
+    font-size: 23px;
+    border-color: mediumblue;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+  #sub:hover {
+    background-color: #3867d6;
+    color: black;
+  }
+
+  .home {
+    position: relative;
+    left: 560px;
+    bottom: 26px;
+
+  }
+  #text{
+    text-decoration: none;
+    color:white;
+  }
+</style>
+
+<body>
+  <haeader>
+    <div class="head">
+      <h1>
+        <span>E</span>vent <span>F</span>orm
+      </h1>
+      <div class="home"><a id="text" href= "index.html" >Home</a></div>
+    </div>
+  </haeader>
+  <div class="main">
+    <table border="2px ">
+      <tr>
+        <td>
+          Event Name
+        </td>
+        <td>
+          <input type="text" name="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Event time
+        </td>
+        <td>
+          <input type="time" name="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Event Date
+        </td>
+        <td>
+          <input type="date" name="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Event image
+        </td>
+        <td>
+          <input type="file" name="name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          preview
+        </td>
+        <td>
+          <textarea name="area" id="" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+  
+  <div class="button"> <a href="final.html">
+    <button id="sub">
+      Submit
+    </button></a> 
+  </div>
+  <footer>
+    <div class="foot">
+      <h4>@copyright <span>sachin verma</span></h4>
+    </div>
+  </footer>
+</body>
+
+</html>
